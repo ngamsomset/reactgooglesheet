@@ -59,6 +59,16 @@ function App() {
         <Button type="submit" color="blue" onClick={handleSubmit}>
           Submit
         </Button>
+        <Button type="submit" color="black">
+          <a
+            alt="#"
+            href="https://docs.google.com/spreadsheets/d/1rVWyRP6OqGJM81a09QL9dUI3IUQjwnPelgPp2GAT0jo/edit?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Check your Sheet Here
+          </a>
+        </Button>
       </Form>
     </Container>
   )
